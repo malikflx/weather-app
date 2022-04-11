@@ -1,0 +1,23 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "Simple weather app powered by weatherapi.com",
+  "main": "main.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malikflx/weather-app.git"
+  },
+  "author": "Malik Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malikflx/weather-app/issues"
+  },
+  "homepage": "https://github.com/malikflx/weather-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
