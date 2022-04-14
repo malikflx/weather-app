@@ -11,7 +11,6 @@ Find the weather of any location in the world using the City and region names.
 
 ## Requirements
 1. Sign up for an API key at [weatherapi.com](https://www.weatherapi.com/)
-```
 2. Create a `config.js` file at the root of your project:
 ```
 touch config.js
