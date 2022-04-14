@@ -7,19 +7,39 @@
   <title>World Weather</title>
 
   <!-- external CSS link -->
+  <!-- <link rel="stylesheet" href="css/reset.css"> -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>World Weather</h1>
-
-  <input type="text" name="" value="">
-  <button type="button" name="button">Get Weather</button>
-
-  <h2 class="location"></h2>
-  <h3 class="temperature"></h3>
-  <p class="condition"></p>
-  <img src="" alt="">
+  <main>
+    <header>
+      <h1>World Weather</h1>
+    </header>
+    
+    <section class="search-bar">
+      <input type="text" name="" value="">
+      <button type="button" name="button">Get Weather</button>
+    </section>
+    
+    <section class="results">
+      <h2 class="location"></h2>
+      <div class="weather-container">
+        <div class="weather">
+          <h3 class="temperature"></h3>
+          <p class="condition"></p>
+          <p class="range"></p>
+        </div>
+        <div class="info">
+          <img src="" alt="">
+          <p class="description"></p>
+        </div>
+      </div>
+      
+      
+    </section>
+    
+  </main>
   
   <footer>
     <p>Powered By <a href="https://www.weatherapi.com/" title="Weather API">WeatherAPI.com</a></p>

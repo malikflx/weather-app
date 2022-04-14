@@ -3,14 +3,50 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
+* {
   box-sizing: border-box;
+  /* border: 1px solid red;x */
 }
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
 
+.results {
+  display: flex;
+  flex-direction: column;
+}
+
+.weather-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather {
+  display: flex;
+  /* width: 30%; */
+  flex-direction: column;
+}
+
+.temperature {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.condition, .range, .description {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
